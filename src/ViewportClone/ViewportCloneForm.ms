@@ -1,0 +1,1 @@
+python.executefile (substituteString (getsourcefilename()) ".ms" ".py")

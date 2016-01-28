@@ -1,0 +1,4 @@
+[submodule "libs/DWM"]
+	path = libs/DWM
+	url = https://github.com/vladris/DWM.git
+	branch = master

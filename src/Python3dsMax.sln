@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ViewportClone", "ViewportClone\ViewportClone.pyproj", "{94650CF5-47A8-4629-A3E9-88F87D1B059A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWM", "DWM\DWM.csproj", "{3AC88496-2225-4FDD-BF80-2C09FA56800A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94650CF5-47A8-4629-A3E9-88F87D1B059A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94650CF5-47A8-4629-A3E9-88F87D1B059A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC88496-2225-4FDD-BF80-2C09FA56800A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC88496-2225-4FDD-BF80-2C09FA56800A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC88496-2225-4FDD-BF80-2C09FA56800A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC88496-2225-4FDD-BF80-2C09FA56800A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

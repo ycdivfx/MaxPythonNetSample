@@ -1,1 +1,1 @@
-MaxPythonNetSample
+A simple example of a viewport cloner for 3ds Max using Python and .NET wrapper (pythonnet).

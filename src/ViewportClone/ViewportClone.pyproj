@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>94650cf5-47a8-4629-a3e9-88f87d1b059a</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>ViewportClone.py</StartupFile>
+    <SearchPath>C:\Program Files\Autodesk\3ds Max 2016\</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>ViewportClone</Name>
+    <RootNamespace>VoronoiConstruct</RootNamespace>
+    <InterpreterId>{c5d62ae7-9075-40de-826d-59f2edd89000}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main_ui.py" />
+    <Compile Include="ViewportClone.py" />
+    <Compile Include="ViewportCloneForm.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="libs\" />
+    <Folder Include="resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\clr.pdb" />
+    <Content Include="libs\clr.pyd" />
+    <Content Include="libs\Python.Runtime.dll" />
+    <Content Include="libs\Python.Runtime.pdb" />
+    <Content Include="resources\main_ui.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{c5d62ae7-9075-40de-826d-59f2edd89000}\2.7" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
